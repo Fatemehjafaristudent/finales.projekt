@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aufgabe7</title>
+    <style>
+        @media(max-width:550px){
+            .flex-child-1{background-color: green;}
+        }
+        .flexbox-parent{
+            display:flex;
+            justify-content: center;
+            align-parent: center;
+        }
+        .flexbox-child-1{
+            flex:1; /** 1/4 **/
+            background-color: lightgray;
+        }
+        .flexbox-child-2{
+            flex:2; /** 2/4 **/
+            background-color: red;
+        }
+        .flexbox-child-3{
+            flex:3;
+            background-color: seagreen;
+        }
+        .flexbox-parent div{
+            padding: 10px;
+            margin: 10px; text-align: center;
+        }
+        .flexbox-parent-2{
+            padding: 10px;
+        }
+    </style>
+    </head>
+    <body>
+       <ul>
+            <li>
+                <a href="https://www.google.com">home</a> 
+            </li>
+            <li>
+                <a href="https://www.google.com">About</a> 
+            </li>
+            <li>
+                <a href="https://www.google.com">Produkt</a> 
+            </li>
+            <li>
+                <a href="https://www.google.com">kontakt</a> 
+                </li>
+        </ul>
+        <div class="flexbox-parent">
+            <div class="flexbox-child-1">Ein Element</div>
+            <div class="flexbox-child-2">Ein Element</div>
+            <div class="flexbox-child-3">Ein Element</div>
+        </div>
+        <div>
+            <div class="flexbox-parent-2"></div>
+            <img src="https://banner2.cleanpng.com/20180622/qxz/kisspng-gummi-candy-fraise-tagada-boutique-haribo-happy-married-life-5b2cbfb179efe5.0791730415296593134995.jpg">
+             <div class="flexbox-child-1-1"></div>
+             <div class="flexbox-child-1-2"></div>
+        </div>
+        <div>
+            <div class="flex-child-1"></div>
+            <div class="flex-child-1">Ein Element</div>
+        </div>
+    </body>
+    </html>
